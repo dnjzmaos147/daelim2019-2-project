@@ -1,1 +1,41 @@
-daelim2019-2-project
+# 최성욱 : daelim2019-2 project
+
+## 2019.10.23
+### index.html수정 / domBasic.html, domBasic2.html, domBasic3.html추가
+> 1. 스크립트 선택자 및 innerHtml 이용 <br>
+> 2. for문을 이용한 스크립트 작성
+> 3. Date 객체를 이용한 시간출력
+
+
+## 2019.10.11
+### index.html / main.css 수정
+> 1. 헤더영역 풀스크린 배경으로 수정 <br>
+> 2. 메뉴바 상단으로 고정 및 드롭다운 기능 추가
+> 3. 고스트 버튼 삽입
+
+
+## 2019.10.02
+### index.html / main.css 수정
+> 1. 그리드 레이아웃 나누기  <br>
+> 2. aside, footer 수정
+> 3. a태그 적용
+> 4. 폰트적용
+
+
+## 2019.09.27
+### index.html / mainpage.css 수정
+> 1. 이미지 삽입   <br>
+> 2. 비디오 삽입
+> 3. 오디오삽입
+> 4. 유튜브
+> 5. 그리드를 이용해 나누기
+
+## 2019.09.20
+### index.html / main.css 생성
+> 1. 주석 추가   <br>
+> 2. 기본구조 삽입  
+> 3. css적용
+> 4. css 초기화 (v0.1.0)
+> 5. 메뉴 생성 (v.0.2.0)
+> 6. 1st article : margin, padding, 
+border test (v0.3.0)
