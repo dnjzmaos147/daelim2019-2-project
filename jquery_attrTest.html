@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>attrTest</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('img').attr('src', 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg');
+      $('img').attr('alt', '네이버이미지');
+      $('img').attr('width', '100px');
+      $('img').attr('height', '100px');
+
+      $('#img-sample').attr({
+        alt: '네이버 이미지',
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTry8CumdzuXsSvIpMVXxh90wxjlRHMNRU2qKfGqzSex6txIzrI&s',
+        width: 150,
+        height: 150
+      });
+    })
+  </script>
+</head>
+<body>
+  <img>
+  <img>(속성하나씩)<br>
+  <img id='img-sample'>(한줄코딩이미지))
+</body>
+</html>

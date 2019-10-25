@@ -1,6 +1,14 @@
 # 최성욱 : daelim2019-2 project
 
 ## 2019.10.23
+### index.html수정 / jQery관련 html파일 추가
+> 1. 제이쿼리 선택자 예제 <br>
+> 2. 클래스 선택 및 hover상태 처리 스크립트 작성
+> 3. toggle 및 animate 효과를 이용한 이벤트 처리
+> 4. 제이쿼리 플러그인을 이용한 date picker(달력)
+> 5. 배열에 이미지를 넣어 interval프레임 조정을 이용한 움직이는 효과처리 스크립트 작성 
+
+## 2019.10.23
 ### index.html수정 / domBasic.html, domBasic2.html, domBasic3.html추가
 > 1. 스크립트 선택자 및 innerHtml 이용 <br>
 > 2. for문을 이용한 스크립트 작성

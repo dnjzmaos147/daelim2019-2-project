@@ -11,14 +11,23 @@
         var clock =document.getElementById('clock');
 
         setInterval(function () {
+            var date = new Date();
+          var currenYear = date.getFullYear();
+          var currenMonth = (date.getMonth()+1);
+          var currenDate = date.getDate();
+          var currenHours = date.getHours();
+          var currenMinutes = date.getMinutes();
+          var currenSeconds = date.getSeconds();
+            
+          var dateAll = "<br>"+currenYear+"년 "+currenMonth+"월 "+currenDate+"일 "+currenHours+"시 "+currenMinutes+"분 "+currenSeconds+"초 입니다.";
           var now = new Date();
-          clock.innerHTML = now.toString();
+          clock.innerHTML = now.toString()+dateAll;
         }, 1000);
       };
   </script>
 </head>
 
 <body>
-  <h1 id="clock"></h1>
+  <h1 style="text-align: center;" id="clock"></h1>
 </body>
 </html>
