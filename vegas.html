@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>vegas plugin</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+  <link rel="stylesheet" href="css/vegas.css">
+</head>
+<body>
+<script>
+$("body").vegas({
+    slides: [
+        {   src: 'images/p2.jpg',
+            video: {
+                src: [
+                    'videos/v1.mp4',
+                    'videos/v1.webm',
+                    'videos/v1.ogv'
+                ],
+                loop: false,
+                mute: true
+            }
+        },
+        {   src: 'images/p3.jpg',
+            video: {
+                src: [
+                    'videos/v2.mp4',
+                    'videos/v2.webm',
+                    'videos/v2.ogv'
+                ],
+                loop: false,
+                mute: true
+            }
+        }
+    ]
+}); 
+</script>
+</body>
+</html>

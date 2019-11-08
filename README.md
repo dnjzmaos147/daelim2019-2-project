@@ -1,5 +1,12 @@
 # 최성욱 : daelim2019-2 project
 
+## 2019.11.08
+### index.html수정 / jQery관련 html파일 추가
+> 1. 무한스크롤 함수 작성 <br>
+> 2. backstrech(풀스크린배경)플러그인을 활용하여 슬라이드쇼 제작
+> 3. vegas플러그인을 활용하여 동영상 풀스크린 제작
+> 4. 사용자 코드조각(snippets)를 활용하여 기본 html5틀 저장
+
 ## 2019.10.23
 ### index.html수정 / jQery관련 html파일 추가
 > 1. 제이쿼리 선택자 예제 <br>
