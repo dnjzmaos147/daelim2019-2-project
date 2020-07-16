@@ -1,4 +1,5 @@
 # 최성욱 : daelim2019-2 project
+http://dnjzmaos147.dothome.co.kr/
 
 ## 2019.11.15
 ### index.html수정 / 부트스트랩 components 적용
